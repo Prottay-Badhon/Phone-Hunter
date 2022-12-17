@@ -1,0 +1,42 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#spinner {
+    display: none;
+}
+
+#error {
+    display: none;
+}
+
+.card img {
+    height: 300px;
+    width: 250px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+}
+
+
+
+@media(max-width: 768px) {
+    #searchDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #search-btn {
+        margin-top: 10px;
+        width: 75%;
+    }
+
+
+}
